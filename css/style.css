@@ -23,13 +23,17 @@
 .nav {
   margin: 1rem;
   justify-content: space-between;
-  
+  display: flex;
 }
 
 .logo {
   display: flex;
   align-items: center;
   /* justify-content: center; */
+}
+
+.lago {
+  height: 3rem;
 }
 
 ::placeholder {
@@ -55,4 +59,9 @@
 
 .f-search {
   padding-left: 0.85rem;
+}
+
+.house {
+  display: flex;
+  justify-content: ;
 }
