@@ -19,3 +19,13 @@
 @keyframes peeps {
   
 }
+
+::placeholder {
+  outline: none;
+  border: none;
+}
+
+.search {
+  border: none;
+  outline: none;
+}
