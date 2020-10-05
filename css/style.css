@@ -63,5 +63,7 @@
 
 .house {
   display: flex;
-  justify-content: ;
+  justify-content: space-between;
+  margin-right: 12rem;
+  width: 30rem;
 }
