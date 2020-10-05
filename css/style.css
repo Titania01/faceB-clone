@@ -20,12 +20,39 @@
   
 }
 
+.nav {
+  margin: 1rem;
+  justify-content: space-between;
+  
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
 ::placeholder {
   outline: none;
   border: none;
+}
+  
+.input {
+  background: #f0f2f5;
+  height: 3rem;
+  width: 15rem;
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
 }
 
 .search {
   border: none;
   outline: none;
+  padding-left: 0.85rem;
+  background: none;
+}
+
+.f-search {
+  padding-left: 0.85rem;
 }
