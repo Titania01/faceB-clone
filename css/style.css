@@ -102,7 +102,7 @@ body {
 .page-wrapper {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-gap: 5rem;
+  grid-gap: 2rem;
   margin-top: 5rem;
 }
 
@@ -123,7 +123,8 @@ body {
 }
 
 .border {
-  border-bottom: 2px solid #e4e3e3;
+  border-bottom: 2px solid #e4e4e4;
+  width: 18rem;
 }
 
 .ur {
@@ -152,9 +153,14 @@ body {
 
 .middle {
   overflow-y: visible;
-  background-color: blueviolet;
-  height: 50rem;
+  /* background-color: blueviolet; */
+  /* height: 50rem; */
   margin: 1rem;
+} 
+
+.grids {
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 0.5rem;
 }
 
 .ende {
