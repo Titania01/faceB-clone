@@ -159,8 +159,16 @@ body {
 } 
 
 .grids {
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  /* grid-gap: 0.5rem; */
+}
+
+.pics {
+  height: 12rem;
+  width: 8rem;
+  border-radius: 5px;
+  box-shadow: 0 7px 3px -6px #4a4a4a;
 }
 
 .ende {
