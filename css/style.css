@@ -135,6 +135,7 @@ body {
 
 .privacy {
   color: #787878;
+  padding-top: 6rem;
   font-size: 12px;
 }
 
@@ -150,6 +151,7 @@ body {
 }
 
 .middle {
+  overflow-y: visible;
   background-color: blueviolet;
   height: 50rem;
   margin: 1rem;
