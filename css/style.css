@@ -206,6 +206,7 @@ body {
   align-items: center;
   padding: 1rem;
   border-bottom: 1px solid #e4e4e4;
+  margin: 1rem;
 }
 
 ::placeholder {
@@ -215,6 +216,7 @@ body {
 
 .put {
   padding-left: 1rem;
+
 }
 
 .profil {
@@ -225,11 +227,25 @@ body {
 
 .mind {
   height: 2.5rem;
-  width: 44rem;
+  width: 43rem;
   background: #f0f2f5;
   border: none;
   outline: none;
   border-radius: 1.5rem;
+}
+
+.live {
+  justify-content: space-around;
+  display: flex;
+}
+
+.vide {
+  display: flex;
+}
+
+.vid {
+  padding-left: 1rem;
+  color: #787878;
 }
 
 .ende {
