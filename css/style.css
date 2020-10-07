@@ -11,7 +11,7 @@ body {
 }
 
 .nav-bar {
-  padding: 1rem;
+  padding: 0.5rem;
   justify-content: space-between;
   display: flex;
   background-color: white;
@@ -25,27 +25,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-.hom:hover {
-  cursor: pointer;
-  background-color: #e4e4e4;
-}
-
-.tele:hover {
-  cursor: pointer;
-  background-color: #e4e4e4;
-}
-
-.curl:hover {
-  cursor: pointer;
-  background-color: #e4e4e4;
-}
-
-.group:hover {
-  cursor: pointer;
-  background-color: #e4e4e4;
+  /* justify-content: center; */
 }
 
 .lago {
@@ -80,8 +60,39 @@ body {
 .house {
   display: flex;
   justify-content: space-between;
-  /* margin-right: 12rem; */
   width: 30rem;
+}
+
+.hom,
+.tele,
+.group,
+.curl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 8rem;
+  border-radius: 5px;
+}
+
+.hom:hover {
+  cursor: pointer;
+  /* background-color: #e4e4e4; */
+}
+
+.tele:hover {
+  cursor: pointer;
+  background-color: #e4e4e4;
+}
+
+.curl:hover {
+  cursor: pointer;
+  background-color: #e4e4e4;
+}
+
+.group:hover {
+  cursor: pointer;
+  background-color: #e4e4e4;
 }
 
 .profile_pic {
@@ -104,6 +115,7 @@ body {
   display: flex;
   width: 20rem;
   justify-content: space-between;
+  align-items: center;
 }
 
 .pulse {
@@ -173,7 +185,7 @@ body {
 }
 
 .middle {
-  overflow-y: visible;
+  overflow-y: auto;
   /* background-color: blueviolet; */
   /* height: 50rem; */
   margin: 1rem;
@@ -282,4 +294,5 @@ body {
 .ende {
   background-color: burlywood;
   height: 50rem;
+  margin: 1rem;
 }
