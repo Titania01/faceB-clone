@@ -19,6 +19,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  box-shadow: 0 7px 3px -6px #4a4a4a;
 }
 
 .logo {
@@ -161,7 +162,6 @@ body {
 .grids {
   display: grid;
   grid-template-columns: repeat(6, auto);
-  /* grid-gap: 0.5rem; */
 }
 
 .pics {
@@ -169,6 +169,12 @@ body {
   width: 8rem;
   border-radius: 10px;
   box-shadow: 0 7px 3px -6px #4a4a4a;
+  /* position: relative; */
+}
+
+.pics:hover {
+  cursor: pointer;
+  transform: ease-out;
 }
 
 /* .photos {
@@ -184,6 +190,21 @@ body {
   position: absolute;
   border: 5px solid blue;
   margin: 1rem;
+}
+
+.box {
+  height: 8rem;
+  width: 50rem;
+  border-radius: 1rem;
+  background-color: white;
+  margin: 1rem;
+  box-shadow: 0 7px 3px -6px #4a4a4a;
+}
+
+.profil {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
 }
 
 .ende {
