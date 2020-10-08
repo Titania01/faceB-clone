@@ -201,7 +201,6 @@ body {
   width: 8rem;
   border-radius: 10px;
   box-shadow: 0 7px 3px -6px #4a4a4a;
-  /* position: relative; */
 }
 
 .pics:hover {
@@ -241,6 +240,7 @@ body {
   margin: 1rem;
 }
 
+
 ::placeholder {
   padding-left: 1rem;
   font-size: 16px;
@@ -266,6 +266,11 @@ body {
   border-radius: 1.5rem;
 }
 
+.mind:hover {
+  cursor: pointer;
+  background: #e4e4e4;
+}
+
 .live {
   justify-content: space-around;
   display: flex;
@@ -289,6 +294,60 @@ body {
 .vid {
   padding-left: 1rem;
   color: #787878;
+}
+
+
+.box2 {
+  height: 7rem;
+  width: 50rem;
+  border-radius: 1rem;
+  background-color: white;
+  margin: 1rem;
+  box-shadow: 0 7px 3px -6px #4a4a4a;
+  overflow-x: auto;
+}
+
+.rooms {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.chats {
+  color: #787878;
+  display: flex;
+}
+
+.blu {
+  color: #216fdb;
+}
+
+.head {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+b {
+  color: black;
+  font-weight: 400;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.memba {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.box3 {
+  height: 60rem;
+  width: 50rem;
+  border-radius: 1rem;
+  background-color: white;
+  margin: 1rem;
+  box-shadow: 0 7px 3px -6px #4a4a4a;
 }
 
 .ende {
