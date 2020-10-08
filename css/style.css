@@ -344,13 +344,14 @@ b {
 .dapo {
   height: 40rem;
   width: 50rem;
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
 }
 
 .ola {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 }
 
 .pixel {
@@ -363,6 +364,49 @@ b {
   height: 3rem;
   width: 3rem;
   border-radius: 50%;
+}
+
+.update {
+  color: #787878;
+}
+
+br {
+  padding-left: 1rem;
+}
+
+b {
+  font-weight: 500;
+}
+
+.hug,
+.love,
+.thumb {
+  height: 1.2rem;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+}
+
+.comments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: #e4e4e4 1px solid;
+}
+
+.persons {
+  padding-left: 0.75rem;
+  color: #787878;
+  font-size: 15px;
+}
+
+.comm {
+  color: #787878;
+  font-size: 15px;
 }
 
 .box3 {
