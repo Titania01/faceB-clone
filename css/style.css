@@ -344,13 +344,25 @@ b {
 .dapo {
   height: 40rem;
   width: 50rem;
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 
 .ola {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.pixel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fauxels {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
 }
 
 .box3 {
