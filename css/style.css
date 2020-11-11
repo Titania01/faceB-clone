@@ -137,6 +137,7 @@ body {
   grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 2rem;
   margin-top: 5rem;
+  position: fixed;
 }
 
 .start {
@@ -185,7 +186,7 @@ body {
 }
 
 .middle {
-  overflow-y: auto;
+  overflow-y: scroll;
   /* background-color: blueviolet; */
   /* height: 50rem; */
   margin: 1rem;
