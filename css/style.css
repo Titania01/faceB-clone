@@ -137,11 +137,12 @@ body {
   grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 2rem;
   margin-top: 5rem;
-  position: fixed;
 }
 
 .start {
   margin: 1rem;
+  position: fixed;
+  width: auto;
 }
 
 .namee {
@@ -186,11 +187,16 @@ body {
 }
 
 .middle {
-  overflow-y: scroll;
+  height: auto;
+  background-color: #216fdb;
+  overflow-y: auto;
   /* background-color: blueviolet; */
   /* height: 50rem; */
   margin: 1rem;
 } 
+.middle:hover{
+  overflow: auto;
+}
 
 .grids {
   display: grid;
